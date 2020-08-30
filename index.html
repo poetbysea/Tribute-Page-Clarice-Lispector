@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js."></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+        }
+
+        .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 100%;
+        }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+        }
+
+        #img-caption {
+          font-size: 30px;
+          text-align: center;
+          font-style: italic;
+        }
+
+        .center {
+          margin: auto;
+          width: 60%;
+          padding: 10px;
+        }
+
+        body {
+        font-family: Garamond;
+        text-align: center;
+        background-color: #fff8dc;
+        }
+
+        blockquote {
+        font-style: italic;
+        max-width: 545px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        }
+        </style>
+
+    <div id="main"</div>
+      <h1 id="title">Clarice Lispector</h1>
+      <div id="img-div"
+      style="position: absolute";
+      width: 100%;
+      height: 100%;>
+        <div class="row">
+          <div class="column">
+              <img src="imagestp/clarice-lispector-bern.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              <img src="imagestp/clarice-lispector-switzerland-tree.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              <img src="imagestp/clarice-lispector-thinking.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+        </div>
+          <div class="column">
+              <img src="imagestp/clarice-lispector-law-school.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              <img src="imagestp/clarice-lispector-portrait.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              <img src="imagestp/clarice-lispector-rose.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+            </div>
+          <div class="column">
+              <img src="imagestp/clarice-lispector-with-son.png" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              <img src="imagestp/clarice-lispector-young.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              <img src="imagestp/clarice-lispector-with-dog.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              </div>
+              <div class="column">
+              <img src="imagestp/clarice-lispector-america.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              <img src="imagestp/clarice-lispector-yearbook.jpg" style="width:100%" alt="Clarice Lispector" id="image"</img>
+              </div>
+
+      <p id="img-caption" class="center">Brazilian Author, Clarice Lispector (1920-1977)</p>
+        </div>
+
+      <body>
+        <div id="tribute-info">
+          <blockquote>
+            <div> "Please don't say: I discovered there is still a large part of me that is alive. No, my darling! You are entirely alive. It's just that you've lived an irrational life, a life that doesn't resemble you." </div>
+            <cite> - Clarice Lispector, from a letter to Tânia Kaufmann wr. c. January 1948<cite>
+            </blockquote>
+            </div>
+            <a href="https://en.wikipedia.org/wiki/Clarice_Lispector" target="_blank" id="target-link"> Learn more about Clarice Lispector</a>
+      </body>
+  </head>
+     </html>
